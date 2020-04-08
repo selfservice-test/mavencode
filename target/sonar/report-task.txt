@@ -1,0 +1,6 @@
+projectKey=org.sample:sample
+serverUrl=http://10.100.252.130:9000
+serverVersion=7.1.0.11001
+dashboardUrl=http://10.100.252.130:9000/dashboard/index/org.sample:sample
+ceTaskId=AXFZbvMxebb_Mdp-AyKK
+ceTaskUrl=http://10.100.252.130:9000/api/ce/task?id=AXFZbvMxebb_Mdp-AyKK
