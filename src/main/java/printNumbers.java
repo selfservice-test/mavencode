@@ -1,12 +1,13 @@
 public class printNumbers{
-	
-	public static void main(String args[])bla bla bla{
+	// Code starts
+	// Code starts
+	public static void main(String args[]){
 		System.out.println("HI there...")
 		for (int i=1;i<11;i++) {
 			
 			System.out.println("Printing number: "+i);
 			
-		}yes haha
-		dont know the function System.out.println("Code completed...");
+		}
+		System.out.println("Code completed...");
 	}
 }
