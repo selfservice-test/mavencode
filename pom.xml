@@ -3,6 +3,29 @@
   <groupId>org.sample</groupId>
   <artifactId>sample</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+	
+  <build>
+ 	<plugins>
+     		<plugin> 
+
+                <!-- Building an executable jar -->
+
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.6.0</version>
+                <configuration>
+                  <archive>
+                    <manifest>
+
+                    <!-- give full qualified name of your main class-->
+                      <mainClass>printNumbers</mainClass>
+
+                    </manifest>
+                  </archive>
+                </configuration>
+    </plugin>
+ </plugins>
+</build>	
   
   <dependencies>
   	<dependency>
