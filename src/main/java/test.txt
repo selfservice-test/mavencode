@@ -1,0 +1,2 @@
+APP_KEY = oiyuioyerytyet
+APP_PASSWORD = thakur
